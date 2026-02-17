@@ -28,12 +28,43 @@ JAVA is
 2) SIMPLE 
 3) SECURE 
 
-# CONCEPT OF BYTECODE ---> It solves portability problem.
+# CONCEPT OF BYTECODE
+It solves portability problem.
 java Source code -----> compiler ---> BYTECODE ----> Platforms 
 every platform consist java virtual machine (JVM) which converts bytecode into Machine code according to that platform. BYTECODE is platform independent  But  JVM is platform dependent 
 
 IN C/C++ there were some complex topic like 1) POINTERS 2) MULTIPLE INHERITANCES 3) MANNUAL MEMORY ALLOCATION AND DEALLOCATION
 JAVA removes these complexity 
+
+#DAY 02 
+**JVM VS JDK VS JRE ****
+JDK---> JRE ---->JVM (jre ,jvm are inside of jdk)
+JDK --> java development kit.
+JRE--> java runtime environment.
+JVM--> java virtual machine.It translate bytecode into machine code.
+
+To convert bytecode into machine code we required software 
+1) compiler :- it converts source code into machine code completely at once. 
+2) interpreter -: It convert source code into machine code line by line.
+
+Java is both compiled and interpreted language.
+jvm does 
+innitially 
+Bytecode---> Interpreter-----> Machine Code
+later on 
+Bytecode---> Interpreter + JIT(just in time ) Compiler  ---> Machine Code.
+frequently used source code converted by JIT into machine code . other  source code converted by interpreter.
+
+JRE 
+(JVM + class libraries)
+
+JDK 
+(compiler,debugger,java docs ,jvm ,jre.....etc ).
+It consists all things that required to write  and run java code 
+
+
+
+
 
 
 
